@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Work+Sans&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Основные стили шапки сайта */
+header {
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0; /* Внутренние отступы */
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Размещаем пункты меню горизонтально */
+    margin-right: 20px; /* Внешний отступ между пунктами */
+}
+
+nav a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #fff; /* Цвет текста ссылок */
+}
+
+/* Стили для логотипа */
+header img {
+    width: 100px; /* Задаем ширину логотипа */
+    height: auto; /* Автоматическая высота, чтобы не искажать изображение */
+}
+
+/* Оформление секций и статей */
+section {
+    padding: 20px; /* Внутренние отступы секций */
+    margin: 20px 0; /* Внешний отступ между секциями */
+    border: 1px solid #ddd; /* Граница секций */
+}
+
+section h2 {
+    font-size: 24px; /* Размер заголовка секции */
+}
+
+article {
+    background-color: #f9f9f9; /* Цвет фона статьи */
+    padding: 10px; /* Внутренние отступы статьи */
+    margin: 10px 0; /* Внешний отступ между статьями */
+    border: 1px solid #ccc; /* Граница статьи */
+}
+
+/* Оформление боковой панели */
+aside {
+    background-color: #f2f2f2; /* Цвет фона боковой панели */
+    padding: 10px; /* Внутренние отступы боковой панели */
+    margin: 10px 0; /* Внешний отступ между боковой панелью и контентом */
+    border: 1px solid #ccc; /* Граница боковой панели */
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333; /* Цвет фона футера */
+    color: #fff; /* Цвет текста футера */
+    padding: 10px 0; /* Внутренние отступы */
+}
+
+/* Стили для меню */
+nav a:hover {
+    text-decoration: underline; /* Подчеркивание ссылок при наведении */
+}
+
+/* Стили для заголовков с Google Fonts */
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif; /* Применяем шрифт из Google Fonts */
+}
+
+/* Добавьте дополнительные стили, если необходимо */
